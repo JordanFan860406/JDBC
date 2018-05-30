@@ -16,6 +16,7 @@ public class DB_Connect {
 		Connection testCon = DriverManager.getConnection(CONNECTION, p);
 		stmt = testCon.createStatement();
 		System.out.println(123);
+		
 	}
 	
 	

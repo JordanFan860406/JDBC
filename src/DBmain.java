@@ -4,7 +4,5 @@ public class DBmain {
 	public static void main(String[]args) throws Exception{
 		DB.connect();
 		System.out.println(456);
-		
-		
 	}
 }
